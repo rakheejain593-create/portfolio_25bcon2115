@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jay Jain | Personal Portfolio</title>
+<meta name="description" content="Jay Jain's personal portfolio showcasing education, technical skills, projects, and contact information.">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header class="header">
+    <nav class="navbar container">
+        <a href="#home" class="logo">Jay Jain<span>.</span></a>
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+            ☰
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <!-- HOME SECTION -->
+    <section class="hero section" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">HELLO, I'M</p>
+                <h1>Jay Jain</h1>
+                <h2>B.Tech CSE Student & Aspiring Developer</h2>
+                <p class="hero-description">
+                    I'm a Computer Science Engineering student at JECRC University,
+                    Jaipur, passionate about programming, technology, and building
+                    useful digital experiences. I'm currently strengthening my
+                    programming fundamentals in C++ and Java while exploring
+                    the exciting world of software development.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <!-- Replace the PLACEHOLDER URL with your GitHub profile URL -->
+                    <a href="PLACEHOLDER_GITHUB_PROFILE_URL"
+                       id="github-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+                    <a href="mailto:jayjain593@gmail.com">Email Me ↗</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Put your photograph in this folder and name it profile.jpg -->
+                <img
+                    src="profile.jpg"
+                    alt="PLACEHOLDER: Add your profile photograph"
+                    id="profile-photo"
+                    onerror="this.style.display='none'; document.getElementById('photo-fallback').style.display='flex';"
+                >
+                <div class="photo-fallback" id="photo-fallback">
+                    <span>JJ</span>
+                    <p>PLACEHOLDER: Add your photo as profile.jpg</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-card">
+                <p>
+                    Hello! I'm Jay Jain, a Bachelor of Technology student
+                    pursuing Computer Science Engineering at JECRC University
+                    in Jaipur, Rajasthan, India.
+                </p>
+                <p>
+                    I enjoy learning how technology works and improving my
+                    problem-solving abilities through programming. My current
+                    technical interests include C++, Java, data structures,
+                    algorithms, and software development.
+                </p>
+                <p>
+                    My goal is to develop strong technical foundations,
+                    work on practical projects, and grow into a skilled
+                    software developer. I'm always eager to learn new
+                    technologies and turn ideas into working solutions.
+                </p>
+                <p>
+                    <strong>Personal interests:</strong>
+                    PLACEHOLDER: Add your hobbies and interests here.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- EDUCATION SECTION -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">MY ACADEMIC JOURNEY</p>
+                <h2>Education</h2>
+            </div>
+            <div class="education-grid">
+                <article class="info-card">
+                    <span class="card-icon">🎓</span>
+                    <h3>Bachelor of Technology</h3>
+                    <p class="card-subtitle">Computer Science Engineering</p>
+                    <p>JECRC University, Jaipur, Rajasthan, India</p>
+                    <p class="highlight">Expected Graduation: 2029</p>
+                </article>
+                <article class="info-card">
+                    <span class="card-icon">📚</span>
+                    <h3>Class 12</h3>
+                    <p class="card-subtitle">Senior Secondary Education</p>
+                    <p>Percentage: 86.9%</p>
+                    <p class="highlight">School: PLACEHOLDER</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">WHAT I'M LEARNING</p>
+                <h2>Technical Skills</h2>
+            </div>
+            <p class="section-description">
+                My current technical skills and areas of learning.
+            </p>
+            <ul class="skills-list">
+                <li>
+                    <span class="skill-icon">C++</span>
+                    <div>
+                        <h3>C++</h3>
+                        <p>Programming fundamentals and problem-solving.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="skill-icon java-icon">J</span>
+                    <div>
+                        <h3>Java</h3>
+                        <p>Learning object-oriented programming and Java basics.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="skill-icon web-icon">&lt;/&gt;</span>
+                    <div>
+                        <h3>PLACEHOLDER: Additional Skill</h3>
+                        <p>PLACEHOLDER: Add another technical skill when applicable.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- PROJECTS SECTION -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">MY WORK</p>
+                <h2>Projects</h2>
+            </div>
+            <p class="section-description">
+                Here are some projects I've worked on or plan to develop.
+            </p>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A responsive personal website built with HTML, CSS,
+                        and JavaScript to showcase my background, skills,
+                        projects, and contact information.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="PLACEHOLDER_PORTFOLIO_PROJECT_URL"
+                       class="project-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Project ↗
+                    </a>
+                </article>
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <h3>PLACEHOLDER: Project Name</h3>
+                    <p>
+                        PLACEHOLDER: Describe another project, what it does,
+                        which technologies you used, and what you learned.
+                    </p>
+                    <div class="project-tags">
+                        <span>PLACEHOLDER: Technology</span>
+                    </div>
+                    <a href="PLACEHOLDER_SECOND_PROJECT_URL"
+                       class="project-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Project ↗
+                    </a>
+                </article>
+                <article class="project-card">
+                    <div class="project-number">03</div>
+                    <h3>PLACEHOLDER: Future Project</h3>
+                    <p>
+                        PLACEHOLDER: Add a programming project or application
+                        here after you have completed it.
+                    </p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>Java</span>
+                    </div>
+                    <a href="PLACEHOLDER_THIRD_PROJECT_URL"
+                       class="project-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Project ↗
+                    </a>
+                </article>
+            </div>
+            <div class="github-cta">
+                <h3>Explore More on GitHub</h3>
+                <p>
+                    Visit my GitHub profile to explore my code and projects.
+                </p>
+                <!-- Replace this placeholder with your actual GitHub profile URL -->
+                <a href="PLACEHOLDER_GITHUB_PROFILE_URL"
+                   class="btn btn-primary github-profile-link"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Visit My GitHub ↗
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">LET'S CONNECT</p>
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-card">
+                <p>
+                    Have a project idea, an opportunity, or just want
+                    to connect? Feel free to reach out!
+                </p>
+                <div class="contact-item">
+                    <span>✉</span>
+                    <div>
+                        <h3>Email</h3>
+                        <a href="mailto:jayjain593@gmail.com">
+                            jayjain593@gmail.com
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span>📍</span>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Jaipur, Rajasthan, India</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span>💻</span>
+                    <div>
+                        <h3>GitHub</h3>
+                        <a
+                            href="PLACEHOLDER_GITHUB_PROFILE_URL"
+                            class="github-profile-link"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            PLACEHOLDER: Add your GitHub profile link
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <p>© <span id="current-year"></span> Jay Jain. All rights reserved.</p>
+        <a href="#home">Back to Top ↑</a>
+    </div>
+</footer>
+</body>
+</html>
